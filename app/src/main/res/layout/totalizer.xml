@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/below_shadow">
+
+    <TextView
+        android:id="@+id/totalizerDate"
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_marginTop="2dp"
+        android:text="Date"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/totalizerEnd"
+        android:layout_width="33dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="End"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/totalizerDate" />
+
+    <TextView
+        android:id="@+id/totalizerStart"
+        android:layout_width="33dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:text="Start"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/totalizerEnd" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Totalizer End"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalizerDate" />
+
+    <TextView
+        android:id="@+id/dayVolume"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="4dp"
+        android:text="dayVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalizerDate" />
+
+    <TextView
+        android:id="@+id/dayAmount"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="2dp"
+        android:text="dayAmount"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dayVolume" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="96dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="2dp"
+        android:text="Totalizer Start"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/totalizerRate"
+        android:layout_width="77dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:text="Rs. / Ltr"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
