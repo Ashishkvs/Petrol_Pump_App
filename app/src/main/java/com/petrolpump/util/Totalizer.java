@@ -1,8 +1,9 @@
 package com.petrolpump.util;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Totalizer {
+public class Totalizer  implements Serializable {
 
     private String id;
     private double startTotalizer;

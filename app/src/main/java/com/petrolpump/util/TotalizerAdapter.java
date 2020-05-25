@@ -48,7 +48,6 @@ public class TotalizerAdapter extends FirebaseRecyclerAdapter<Totalizer, Totaliz
 //        ListTotalizer ta = new ListTotalizer();
 //        ta.updateTotalAmountAndVolume(String.valueOf(dVol),String.valueOf(dAmount));
 
-
     }
 
 
